@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2? family= Rubik & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #5f4caa , #7357c5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+}
+.anaAlan{
+    width: 1000px;
+    height: 700px;
+    background-color: white;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(88, 82, 82);
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 12.5%;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+.baslik{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: 0.6;
+}
+.tarih{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+    opacity: 0.7;
+}
+.gonder{
+    position: absolute;
+    right: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: cornflowerblue;
+    box-shadow: 0px 0px 5px rgb(134, 129, 129);
+}
+.gonder:hover{
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow: 0px 0px 5px cornflowerblue;
+}
+.kutu1{
+    display: flex;
+    align-items: center;
+    width: 92%;
+    height: 25%;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgb(131, 129, 129);
+    position: relative;
+}
+.baslik1{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+.altYazi1{
+    max-width: 450px;
+    height: 20%;
+    position: absolute;
+    left: 150px;
+    margin-top: 25px;
+    opacity: 0.8;
+}
+.carpi1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+}
+.carpi1:hover{
+    background-color: whitesmoke;
+}
+.buton1{
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 105px;
+    background: linear-gradient(to right, mediumorchid , orchid);
+    border-radius: 20px;
+    color: white;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 1px 5px 10px black;
+}
+.buton1:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 5px 20px black;
+}
+.fiyat1{
+    position: absolute;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    opacity: 0.6;
+    right: 30px;
+}
+.mum{
+    width: 150px;
+    height: 150px;
+}
+.kutu2{
+    display: flex;
+    align-items: center;
+    width: 92%;
+    height: 25%;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgb(131, 129, 129);
+    position: relative;
+}
+.baslik2{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+.altYazi2{
+    max-width: 450px;
+    height: 20%;
+    position: absolute;
+    left: 150px;
+    margin-top: 25px;
+    opacity: 0.8;
+}
+.carpi2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+}
+.carpi2:hover{
+    background-color: whitesmoke;
+}
+.buton2{
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 105px;
+    background: linear-gradient(to right, mediumorchid , orchid);
+    border-radius: 20px;
+    color: white;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 1px 5px 10px black;
+}
+.buton2:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 5px 20px black;
+}
+.fiyat2{
+    position: absolute;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    opacity: 0.6;
+    right: 30px;
+}
+.bardak{
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+}
+.kutu3{
+    display: flex;
+    align-items: center;
+    width: 92%;
+    height: 25%;
+    margin-left: 35px;
+    box-shadow: 0px 0px 10px rgb(131, 129, 129);
+    position: relative;
+}
+.baslik3{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+.altYazi3{
+    max-width: 450px;
+    height: 20%;
+    position: absolute;
+    left: 150px;
+    margin-top: 25px;
+    opacity: 0.8;
+}
+.carpi3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+}
+.carpi3:hover{
+    background-color: whitesmoke;
+}
+.buton3{
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 105px;
+    background: linear-gradient(to right, mediumorchid , orchid);
+    border-radius: 20px;
+    color: white;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 1px 5px 10px black;
+}
+.buton3:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 5px 20px black;
+}
+.fiyat3{
+    position: absolute;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    opacity: 0.6;
+    right: 30px;
+}
+.tabak{
+    width: 150px;
+    height: 150px;
+}
